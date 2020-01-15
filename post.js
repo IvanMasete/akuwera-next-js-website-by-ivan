@@ -6,7 +6,7 @@ const page = () => {
     return(
         <Layout>
             <h1>{router.query.title}</h1>
-            <p>This is mine </p>
+            <p>This is mine d</p>
             </Layout>
 
             
