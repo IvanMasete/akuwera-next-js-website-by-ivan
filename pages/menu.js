@@ -14,6 +14,7 @@ const menu=() => (
     <li><Link href="/index"><a>HOME</a></Link></li>
          <li><Link href="/information"><a>Information</a></Link></li>
          <li><Link href="/gallery"><a>Gallery</a></Link></li>
+         <li><Link href="/Contact"><a>Contact</a></Link></li>
          </ul>  
        </div>
        

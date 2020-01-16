@@ -1,4 +1,4 @@
-import Header from './header';
+import Header from './Donate';
 import Navebar from './navebar'
 const layoutStyle = {
     margin:10,

@@ -9,13 +9,27 @@ const navebar=() => (
     <ul>
     
     <li><Link href="/navebar">
-    <a>MENU
+    <a>
     <i className="fa fa-podcast"></i>
+    Menu
     </a>
-    </Link></li>
-    <li><Link href="/"><a>HOME</a></Link></li>
-         <li><Link href="/information"><a>Information</a></Link></li>
+    </Link>
+    </li>
+    <li><Link href="/">
+        <a>
+        <i className="fas fa-address-card"></i>
+        Home</a>
+      </Link></li>
+         <li><Link href="/About"><a><i className="fas fa-child"></i>
+         About</a>
+         </Link>
+         </li>
          <li><Link href="/gallery"><a>Gallery</a></Link></li>
+         <li><Link href="/Contact">
+             <a>
+             <i className="fal fa-id-card"></i>
+                 Contact</a></Link></li>
+                 <li><Link href="/Donate"><a>Donate</a></Link></li>
          </ul> 
          
     <style jsx>{`
@@ -28,6 +42,8 @@ const navebar=() => (
         padding:20;
         justify-content:center;
         display:flex;
+        min-height:80px;
+        line-height:80px;
         
         
         
@@ -36,9 +52,9 @@ const navebar=() => (
          font-size:18px;
          margin-right:30px
          text-alignment:center;
-         padding:20;
+         padding:30;
          position:relative;
-         margin-left:170px;
+         margin-left:100px;
          display:flex;
      }
      ul li a{

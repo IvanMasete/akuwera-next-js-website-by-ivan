@@ -5,9 +5,10 @@ import Navebar from './navebar';
 function getPosts() {
   return [
     { id: 'hello-nextjs', title: 'HOME' },
-    { id: 'learn-nextjs', title: 'INFORMATION' },
+    { id: 'learn-nextjs', title: 'About' },
     { id: 'deploy-nextjs', title: 'GALLERY' }
   ];
+  
 }
 
 export default function Blog() {
