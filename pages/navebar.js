@@ -8,7 +8,11 @@ const navebar=() => (
        <Layout/>
        
     <ul>
-    <img src="/images/FB13.jpg"/>   
+        <header>
+    <img src="/images/FB13.JPG"/>  
+    </header>
+    <p>+256773787253/</p>
+    <p>+1413726-5454</p> 
     <li><Link href="/navebar">
     <a>
     <i className="fa fa-podcast"></i>
@@ -43,8 +47,8 @@ const navebar=() => (
         padding:20;
         justify-content:center;
         display:flex;
-        min-height:80px;
-        line-height:80px;
+        min-height:100px;
+        line-height:100px;
         
         
         
@@ -55,12 +59,16 @@ const navebar=() => (
          text-alignment:center;
          padding:30;
          position:relative;
-         margin-left:100px;
+         margin-left:70px;
          display:flex;
      }
      ul li a{
          color:#fff;\
          text-decoration:none;
+     }
+     header{
+         text-align:center;
+         background-color:grey;
      }
     
     
