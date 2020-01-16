@@ -5157,7 +5157,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/ahebwa49/Desktop/Projects/akuweera-next/samaku-akuwera/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/ahebwa49/Desktop/Projects/akuweera-next js/samaku-akuwera/.next");
       return error;
     }
   };

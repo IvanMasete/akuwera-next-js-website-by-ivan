@@ -6,8 +6,9 @@ const navebar=() => (
    
    <div>
        <Layout/>
+       
     <ul>
-    
+    <img src="/images/FB13.jpg"/>   
     <li><Link href="/navebar">
     <a>
     <i className="fa fa-podcast"></i>
