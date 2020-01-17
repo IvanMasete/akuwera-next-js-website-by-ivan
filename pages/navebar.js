@@ -11,9 +11,10 @@ const navebar=() => (
         <header>
     <img src="/images/FB13.JPG"/>  
     </header>
-    <p>+256773787253/</p>
-    <p>+1413726-5454</p> 
-    <li><Link href="/navebar">
+    <a>+256773787253/</a>
+    <a>+1413726-5454</a> 
+  <a1>Call us</a1>
+    <li><Link href="/index">
     <a>
     <i className="fa fa-podcast"></i>
     Menu
@@ -22,17 +23,17 @@ const navebar=() => (
     </li>
     <li><Link href="/">
         <a>
-        <i className="fas fa-address-card"></i>
+        <i className="fa fa-podcast"></i>
         Home</a>
       </Link></li>
-         <li><Link href="/About"><a><i className="fas fa-child"></i>
+         <li><Link href="/About"><a><i class="fas fa-camera fa-sm"></i>
          About</a>
          </Link>
          </li>
          <li><Link href="/gallery"><a>Gallery</a></Link></li>
          <li><Link href="/Contact">
              <a>
-             <i className="fal fa-id-card"></i>
+             <i className="fal fa-user-visor"></i>
                  Contact</a></Link></li>
                  <li><Link href="/Donate"><a>Donate</a></Link></li>
          </ul> 
@@ -69,6 +70,9 @@ const navebar=() => (
      header{
          text-align:center;
          background-color:grey;
+     }
+     a1{
+         color:blue;
      }
     
     

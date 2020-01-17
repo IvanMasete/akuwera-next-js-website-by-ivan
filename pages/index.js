@@ -14,7 +14,7 @@ function getPosts() {
 export default function Blog() {
   return (
    
-   
+   <div>
       <ul>
       <Navebar>
 
@@ -30,9 +30,34 @@ export default function Blog() {
             
         ))}
         </Navebar>
-        <h>THIS IS WHERE YOU CAN GET MORE INFORMATION</h>
-        <p>actually this is all about what the foundation is all about</p>
+        <img src="/images/FB8.jpg"/>
+        <h1>Give a Helping Hand</h1>
+        <h3></h3>
+        <h2>Our Mission</h2>
+        <img src="/images/FB9.jpg"/>
+        <img src="/images/FB10.jpg"/>
+        <img src="/images/FB11.jpg"/>
+        <h4>Find Us On Social:</h4>
+        
    </ul> 
+   <style jsx>{`
+            h1{
+                color:white;
+                background-color:black;
+                text-align:center;
+                margin-right:120px;
+            }
+            h2{
+              color:blue;
+              text-align:center;
+          }  }
+          h4{
+            color:blue;
+            text-align:center;
+        }
+              
+              `}</style>
+              </div>
    
    
      

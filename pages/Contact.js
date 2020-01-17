@@ -6,11 +6,30 @@ const Contact = () => (
     
         <div>
             <Navebar/>
-             <h1>How to find us </h1>
-              <h2>Contact us</h2>
-              <p>Name</p>
-              <p>Email</p>
-              <p>Tellephoen</p>
+             <h1>How to Find Us </h1>
+              <h2>Contact Us</h2>
+              <h3>Name<input type="text" name="Name"/></h3>
+              <h3>Email<input type="text" name="Email"/></h3>
+              <h3>Telephone<input type="text" name="Telephone"/></h3>
+              <h4><input type="submit" value="Submit"/></h4>
+              <style jsx>{`
+              h4{
+                
+                padding:10px;
+                margin-right:700px;
+                text-align:center;
+                margin-right:700px;
+                text-align:center;
+                margin-left:300px;
+                font-size:"400pt";
+                background-color:blue;
+               
+              }
+              h2,h1{
+                color:blue;
+            }
+              
+              `}</style>
               
  </div>
  

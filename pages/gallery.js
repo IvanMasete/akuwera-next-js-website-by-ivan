@@ -2,7 +2,7 @@ import Navebar from './navebar';
 const Gallery=() => (
    <div>  
       <Navebar/>
-    <h1>These are some of the photos about Akuweera Foundation for children</h1>
+    <h1>Gallery</h1>
     <img src="/images/FB.jpg"/>
     <img src="/images/FB1.jpg"/>
     <img src="/images/FB2.jpg"/>
@@ -15,6 +15,16 @@ const Gallery=() => (
     <img src="/images/FB9.jpg"/>
     <img src="/images/FB10.jpg"/>
     <img src="/images/FB11.jpg"/>
+    <style jsx>{`
+
+            
+              h1{
+                color:blue;
+                text-align:center;
+            }
+              
+              `}</style>
+              
    </div>
 );
 export default Gallery;
