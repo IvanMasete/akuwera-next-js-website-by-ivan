@@ -16,26 +16,25 @@ const navebar=() => (
   <a1>Call us</a1>
     <li><Link href="/index">
     <a>
-    <i className="fa fa-podcast"></i>
     Menu
     </a>
     </Link>
     </li>
     <li><Link href="/">
         <a>
-        <i className="fa fa-podcast"></i>
+        <i className="fa fa-bars"></i>
         Home</a>
       </Link></li>
-         <li><Link href="/About"><a><i class="fas fa-camera fa-sm"></i>
+         <li><Link href="/About"><a><i className="fa fa-user"></i>
          About</a>
          </Link>
          </li>
-         <li><Link href="/gallery"><a>Gallery</a></Link></li>
+         <li><Link href="/gallery"><a><i className="fa fa-camera"></i>Gallery</a></Link></li>
          <li><Link href="/Contact">
              <a>
-             <i className="fal fa-user-visor"></i>
+             <i className="fa fa-inbox"></i>
                  Contact</a></Link></li>
-                 <li><Link href="/Donate"><a>Donate</a></Link></li>
+                 <li><Link href="/Donate"><a><i className="fa fa-book"></i>Donate</a></Link></li>
          </ul> 
          
     <style jsx>{`
@@ -43,36 +42,46 @@ const navebar=() => (
         background:#333;
         color:#fff;
         list-style: none;
-        text-alignment:center;
+        text-align:center;
         margin-left:-30px;
-        padding:20;
+        padding:30px;
         justify-content:center;
         display:flex;
-        min-height:100px;
+        min-height:120px;
         line-height:100px;
+        overflow:hidden;
         
         
         
     }
      ul li {
          font-size:18px;
-         margin-right:30px
+         margin-right:20px
          text-alignment:center;
-         padding:30;
+         padding:40;
          position:relative;
-         margin-left:70px;
+         margin-left:50px;
          display:flex;
+         float:left;
+         color:#f2f2f2;
+         font-family:"Times New Roman" Times, serif;
+         font-style:italic;
+         font-weight:bold;
+         font-variant: big-caps;
      }
      ul li a{
-         color:#fff;\
+         color:#f2f2f2;\
          text-decoration:none;
+         display:block;
+         
      }
      header{
          text-align:center;
-         background-color:grey;
+         background-color:f1f1f1;
      }
      a1{
          color:blue;
+
      }
     
     
