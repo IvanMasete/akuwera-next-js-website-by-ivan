@@ -1,4 +1,3 @@
-
 import Navebar from './navebar';
 import Layout from './myLayout';
 
@@ -16,7 +15,6 @@ const About =() => (
                 color:blue;
                 text-align:center;
             }
-              
               `}</style>
      </div>
   );

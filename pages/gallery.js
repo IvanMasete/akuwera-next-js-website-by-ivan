@@ -4,6 +4,7 @@ const Gallery=() => (
       <Navebar/>
     <h1>Gallery</h1>
     <img src="/images/FB.jpg"/>
+   <img src="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png"/>
     <img src="/images/FB1.jpg"/>
     <img src="/images/FB2.jpg"/>
     <img src="/images/FB3.jpg"/>
@@ -17,8 +18,7 @@ const Gallery=() => (
     <img src="/images/FB11.jpg"/>
     <style jsx>{`
 
-            
-              h1{
+           h1{
                 color:blue;
                 text-align:center;
             }

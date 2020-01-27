@@ -3,7 +3,6 @@ import Layout from './myLayout';
 import Navebar from './navebar'
 import Index from './index'
 const menu=() => (
-   
    <div>
    <ul>
    <Navebar/>
@@ -12,7 +11,7 @@ const menu=() => (
          <li><Link href="/information"><a>Information</a></Link></li>
          <li><Link href="/gallery"><a>Gallery</a></Link></li>
          <li><Link href="/Contact"><a>Contact</a></Link></li>
-        <img src="/images/FB8.jpg"/>
+         <img src="/images/FB8.jpg"/>
         <h1>Give a Helping Hand</h1>
         <h3></h3>
         <h2>Our Mission</h2>
@@ -21,9 +20,7 @@ const menu=() => (
         <img src="/images/FB11.jpg"/>
         <h4>Find Us On Social:</h4>
         </ul>
-        
-   
-   <style jsx>{`
+        <style jsx>{`
             h1{
                 color:white;
                 background-color:black;
@@ -38,11 +35,8 @@ const menu=() => (
             color:blue;
             text-align:center;
         }
-              
               `}</style>
        </div>
-       
-
-);
+       );
 export default menu;
  

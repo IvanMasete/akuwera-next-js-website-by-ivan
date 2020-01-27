@@ -3,11 +3,9 @@ import Layout from './myLayout';
 import 'font-awesome/css/font-awesome.min.css';
 import Menu from './menu';
 const navebar=() => (
-   
-   <div>
+    <div>
        <Layout/>
-       
-    <ul>
+        <ul>
         <header>
     <img src="/images/FB13.JPG"/>  
     </header>
@@ -16,8 +14,9 @@ const navebar=() => (
   <a1>Call us</a1>
     <li><Link href="/index">
     <a>
-    Menu
-    </a>
+    <img class="gb_ua gb_7d" alt="" aria-hidden="true" src="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png" srcset="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png 1x, https://www.gstatic.com/images/branding/product/2x/sheets_48dp.png 2x "/>
+        <span class="gb_6d gb_zc">MENU</span>
+     </a>
     </Link>
     </li>
     <li><Link href="/">
@@ -34,9 +33,8 @@ const navebar=() => (
              <a>
              <i className="fa fa-inbox"></i>
                  Contact</a></Link></li>
-                 <li><Link href="/Donate"><a><i className="fa fa-book"></i>Donate</a></Link></li>
+                 <li><Link href="/Donate"><a><i className="fa fa-book"></i>Donate</a></Link></li> 
          </ul> 
-         
     <style jsx>{`
     ul {
         background:#333;
@@ -50,10 +48,8 @@ const navebar=() => (
         min-height:120px;
         line-height:100px;
         overflow:hidden;
-        
-        
-        
-    }
+        width:100%;
+        }
      ul li {
          font-size:18px;
          margin-right:20px
@@ -73,27 +69,16 @@ const navebar=() => (
          color:#f2f2f2;\
          text-decoration:none;
          display:block;
-         
-     }
+         }
      header{
          text-align:center;
          background-color:f1f1f1;
      }
      a1{
          color:blue;
-
-     }
-    
-    
-    
-    
-    `}</style>
-    
-    
-    </div>
-    
-    
-    
+ }
+     `}</style>
+     </div>
 );
 export default navebar;
  

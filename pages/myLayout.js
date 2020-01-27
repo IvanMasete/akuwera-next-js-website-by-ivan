@@ -1,4 +1,3 @@
-import Header from './Donate';
 import Navebar from './navebar'
 const layoutStyle = {
     margin:10,
@@ -7,8 +6,6 @@ const layoutStyle = {
    };
 const Layout = (props) => (
 <div>
-  
-  
-</div>
+  </div>
 );
 export default Layout;
