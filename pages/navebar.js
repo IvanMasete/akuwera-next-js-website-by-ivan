@@ -37,14 +37,18 @@ const navebar=() => (
          </ul> 
     <style jsx>{`
     ul {
+        
         background:#333;
         color:#fff;
         list-style: none;
         text-align:center;
         margin-left:-30px;
-        padding:30px;
+        padding:60px;
         justify-content:center;
-        display:flex;
+        display:inline-flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: flex-start;
         min-height:120px;
         line-height:100px;
         overflow:hidden;
@@ -52,11 +56,11 @@ const navebar=() => (
         }
      ul li {
          font-size:18px;
-         margin-right:20px
          text-alignment:center;
-         padding:40;
+         padding:50;
+         width:10;
          position:relative;
-         margin-left:50px;
+         margin-left:40px;
          display:flex;
          float:left;
          color:#f2f2f2;
