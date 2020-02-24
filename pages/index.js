@@ -43,7 +43,7 @@ export default function Blog() {
             h2,{
               color:blue;
               text-align:center;
-          }  }
+          }  
           h4{
             color:blue;
             text-align:center;

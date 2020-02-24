@@ -3,7 +3,9 @@ import Layout from './myLayout';
 import 'font-awesome/css/font-awesome.min.css';
 import Menu from './menu';
 const navebar=() => (
+    
     <div>
+      <button class = "navebar-toggle" type="button" data-toggle="collapse"></button>
        <Layout/>
         <ul>
         <header>
@@ -11,7 +13,7 @@ const navebar=() => (
     </header>
     <a>+256773787253/</a>
     <a>+1413726-5454</a> 
-  <a1>Call us</a1>
+    <a1>Call us</a1>
     <li><Link href="/index">
     <a>
     <img class="gb_ua gb_7d" alt="" aria-hidden="true" src="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png" srcset="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png 1x, https://www.gstatic.com/images/branding/product/2x/sheets_48dp.png 2x "/>
@@ -23,7 +25,7 @@ const navebar=() => (
         <a>
         <i className="fa fa-bars"></i>
         Home</a>
-      </Link></li>
+        </Link></li>
          <li><Link href="/About"><a><i className="fa fa-user"></i>
          About</a>
          </Link>
@@ -37,7 +39,6 @@ const navebar=() => (
          </ul> 
     <style jsx>{`
     ul {
-        
         background:#333;
         color:#fff;
         list-style: none;
@@ -54,7 +55,15 @@ const navebar=() => (
         overflow:hidden;
         width:100%;
         }
+        btn:focus, .btn:active, button:focus, button:active {
+            outline: none !important;
+            box-shadow: none !important;
+          }
      ul li {
+        .btn:focus, .btn:active, button:focus, button:active 
+            outline: none !important;
+            box-shadow: none !important;
+          
          font-size:18px;
          text-alignment:center;
          padding:50;

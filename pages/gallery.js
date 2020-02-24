@@ -1,9 +1,8 @@
 import Navebar from './navebar'; 
-const Gallery=() => (
+const Gallery = () => (
  
   <div class="img">  
-    
-      <Navebar/>
+    <Navebar/>
     <h1>Gallery</h1>
     <li>
     <img src="/images/FB.jpg"/>
@@ -27,11 +26,8 @@ const Gallery=() => (
     <img src="/images/FB12.jpg"/>
     <img src="/images/FB15.JPG"/>
     <img src="/images/FB14.JPG"/>
-    
-    <img src="/images/FB17.JPG"/>
+  <img src="/images/FB17.JPG"/>
     </li4>
-   
-    
     <style jsx>{`
 
            h1{
@@ -41,6 +37,8 @@ const Gallery=() => (
                 margin:300px;
                 margin-top:-10px;
                 margin-right:30px;
+                overflow:shown;
+            flex-wrap:wrap;
             }
             li4{
                display:inline-flex;
@@ -49,8 +47,15 @@ const Gallery=() => (
                justify-content:flext-end;
                padding:15px;
                margin-right:30px;
-               margin-top:-900px;
-               
+               margin-top:-1000px;
+               overflow:shown;
+            flex-wrap:wrap-reverse;
+            margin-top:-900px;
+            list-style:none;
+            
+            
+    
+            
            }
            li{
             display:inline-flex;
@@ -63,34 +68,50 @@ const Gallery=() => (
             min-height:120px;
             line-height:-300px;
             font-variant:small-caps;
+            overflow:shown;
+            flex-wrap:wrap;
+            list-style:none;
             
         }
+       li.btn:focus, .btn:active, button:focus, button:active {
+          outline: none !important;
+          box-shadow: none !important;
+        }
         li2{
+          margin-left:-300px;
          display:inline-flex;
          flex-direction:row;
          margin-left:-300px;
-         justify-content:flext-end;
+         justify-content:flext-start;
          padding:15px;
          margin-right:30px;
          margin-top:-900px;
          min-height:120px;
          line-height:-300px;
          font-variant:small-caps;
+         overflow:shown;
+         flex-wrap:wrap-reverse;
+         flex-direction:row;
          
+        
      }
      li3{
       display:inline-flex;
       flex-direction:row;
       margin-left:-300px;
-      justify-content:flext-end;
+      justify-content:flext-start;
       padding:15px;
       margin-right:30px;
       margin-top:-900px;
       min-height:120px;
       line-height:-300px;
       font-variant:small-caps;
-      
-  }
+      overflow:shown;
+            flex-wrap:wrap;
+           
+                           
+            
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
            
             
          img{
@@ -103,12 +124,11 @@ const Gallery=() => (
                width:300px;
                height:300px;
                margin-top:-50px;
-               
-             
-            
-               
-
-           }
+               overflow:shown;
+            flex-wrap:wrap;
+            float:left;
+            justify-content:flex-start;
+                }
               `}</style>
               
    </div>
