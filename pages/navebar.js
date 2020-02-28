@@ -14,6 +14,7 @@ const navebar=() => (
     <a>+256773787253/</a>
     <a>+1413726-5454</a> 
     <a1>Call us</a1>
+   
     <li><Link href="/index">
     <a>
     <img class="gb_ua gb_7d" alt="" aria-hidden="true" src="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png" srcset="https://www.gstatic.com/images/branding/product/1x/sheets_48dp.png 1x, https://www.gstatic.com/images/branding/product/2x/sheets_48dp.png 2x "/>
@@ -91,7 +92,11 @@ const navebar=() => (
          color:blue;
  }
      `}</style>
+      
      </div>
+    
+    
+     
 );
 export default navebar;
  

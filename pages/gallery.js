@@ -23,7 +23,8 @@ const Gallery = () => (
     <img src="/images/FB11.jpg"/>
     </li3>
     <li4>
-    <img src="/images/FB12.jpg"/>
+    <img src="/images/FB12.jpg" img width ="-300" height="195" class="width-100"/>
+    
     <img src="/images/FB15.JPG"/>
     <img src="/images/FB14.JPG"/>
   <img src="/images/FB17.JPG"/>
@@ -39,6 +40,7 @@ const Gallery = () => (
                 margin-right:30px;
                 overflow:shown;
             flex-wrap:wrap;
+            flex-basis:auto;
             }
             li4{
                display:inline-flex;
@@ -52,6 +54,7 @@ const Gallery = () => (
             flex-wrap:wrap-reverse;
             margin-top:-900px;
             list-style:none;
+            flex-basis:auto;
             
             
     
@@ -71,7 +74,7 @@ const Gallery = () => (
             overflow:shown;
             flex-wrap:wrap;
             list-style:none;
-            
+            flex-basis:auto;
         }
        li.btn:focus, .btn:active, button:focus, button:active {
           outline: none !important;
@@ -82,7 +85,7 @@ const Gallery = () => (
          display:inline-flex;
          flex-direction:row;
          margin-left:-300px;
-         justify-content:flext-start;
+         justify-content:flex-center;
          padding:15px;
          margin-right:30px;
          margin-top:-900px;
@@ -92,6 +95,8 @@ const Gallery = () => (
          overflow:shown;
          flex-wrap:wrap-reverse;
          flex-direction:row;
+         flex-basis:auto;
+        
          
         
      }
@@ -108,7 +113,9 @@ const Gallery = () => (
       font-variant:small-caps;
       overflow:shown;
             flex-wrap:wrap;
-           
+         
+            flex-basis:auto;
+         
                            
             
   }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
@@ -126,7 +133,9 @@ const Gallery = () => (
                margin-top:-50px;
                overflow:shown;
             flex-wrap:wrap;
+            flex-wrap:wrap-reverse;
             float:left;
+            flex-basis:auto;
             justify-content:flex-start;
                 }
               `}</style>
